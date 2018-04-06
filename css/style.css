@@ -1,0 +1,277 @@
+body {
+	color: #3f4234;
+	font-family: helvetica, Verdana, Sans-serif;
+	font-size: 18px;
+	line-height: 145%;
+}
+header {
+	background: #a1bbd0;
+	box-shadow: 0 4px 8px 0 #f4e7d7;
+	border-top:3px solid black;
+}
+header .container {
+	margin: 0px auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	position: relative;
+	left:10px;
+}
+h1 {
+	font-size: 24px;
+	text-align: center;
+	color: #3f4234;
+}
+h2 {
+	font-size: 20px;
+	color: #3f4234;
+}
+a {
+	color: #7f1710;
+}
+.caption {
+	text-align: center;
+	font-size: 14px;
+}
+.time {
+	display: inline;
+	font-size: 14px;
+	font-style: italic;
+}
+.test h1 {
+	display: none;
+}
+
+/*.nextOne {
+
+}*/
+/*header style*/
+#signature {
+	margin:0 auto;
+	width:20%;
+}
+#currentPage h1 {
+	color:white;
+}
+header .nav-pills>li {
+	padding-left:35%;
+}
+header .dropdown-toggle h1{
+	display: inline-block;
+	padding-right: 10px;
+}
+header .nav-pills>li>a:active,.nav-pills>li>a:hover,.nav-pills>li>a:focus,.dropdown-menu>li>a:active,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus {
+	background: #f4e7d7;
+	color: black;
+}
+
+/*section style*/
+#greetingText {
+	width:100%;	
+}
+#greetingImage {
+	width:100%;
+}
+section .aboutMe {
+	background-image: url('../img/aboutBg.jpg');
+	background-position: 20% 50%; 
+}
+section .aboutMePara {
+	background: white;
+	margin:0 20px;
+	padding:20px;
+}
+section .homeNextOne {
+	text-align: center;
+	display: block;
+	margin: 10px auto;
+	padding-bottom: 20px;
+}
+section .aboutNextOne {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+section .projectsNextOne {
+	text-align: center;
+	display: block;
+	margin: 10px auto 30px auto;
+}
+section .userResearchNextOne {
+	text-align: center;
+	display: block;
+	margin: 10px auto 30px auto;
+}
+section .row {
+	margin:10px;
+}
+section .projectsOverview {
+	padding-top: 30px;
+	padding-left: 10px;
+}
+section .projectsPara {
+	display: none;
+}
+section .project {
+	padding:10px;
+}
+section .thumbnail {
+	border:none;
+}
+section .status {
+	margin:10px;
+	color: #7f1710;
+}
+section .statusLink {
+	display: inline-block;
+}
+section div.heroImage {
+	padding:0px 10px 30px 20px;
+}
+section div.basicInfo {
+	box-shadow: 0 4px 8px 0 #a1bbd0;
+	padding: 20px;
+}
+section .methods {
+	background: #f4e7d7;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding:30px;
+}
+section .methods h2 {
+	color:black;
+}
+section .para {
+	margin: 0px 10px;
+}
+
+/*footer style*/
+footer {
+	background:#d1a827;
+	display: block;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+footer ul {
+	display: block;
+	margin: 0px auto;
+}
+footer ul li {
+	display: inline-block;
+	padding-right: 20px;
+}
+footer .linkedIn {
+	color: #3f4234;
+}
+@media screen and (min-width:768px) {
+	body {
+		text-align: justify;
+	}
+/*	header style*/
+	header .container {
+		margin: 10px auto;
+		padding-left: 0;
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	#signature {
+		width:10%;
+	}
+	header .nav-pills>li {
+		padding-left: 0;
+		padding-right: 15px;
+	}
+	header .nav-pills a.dropdown-toggle h1{
+		padding-right: 10px;
+	}
+	/*section style*/
+	#greetingText {
+		display: inline-block;
+		width:45%;
+		margin: 80px auto;
+		position:relative;
+		left:30px;
+	}
+	#greetingImage {
+		display: inline-block;
+		width:45%;
+		margin: 80px auto;
+		position:relative;
+		left:30px;
+	}
+	section .aboutMePara {
+		margin:0px 10% 0px 10%;
+		padding: 30px;
+	}
+	section .aboutMePara div {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	section .projectsPara {
+		padding: 20px;
+		display: block;
+	}
+	section .project {
+		padding:20px;
+	}
+	section .status {
+		padding-left: 30px;
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+	section .para {
+		margin:0px 20px;
+	}
+	/*footer style*/
+	footer ul li {
+		position:relative;
+		left:20px;
+	}
+}
+@media screen and (min-width:992px) {
+	header .container {
+		margin: 10px auto;
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	#signature {
+		width:50%;
+	}
+	header .nav-pills>li {
+		padding-left: 0;
+		padding-right: 50px;
+	}
+	#greetingText {
+		display: inline-block;
+		width:35%;
+		margin: 80px auto;
+		position:relative;
+		left:200px;
+	}
+	#greetingImage {
+		display: inline-block;
+		width:35%;
+		margin: 80px auto;
+		position:relative;
+		left:200px;
+	}
+	section .aboutMePara {
+		margin:0px 200px 0px 200px;
+		padding: 30px;
+	}
+	section .row {
+		margin:0px 200px;
+	}
+	section .status {
+		padding-left: 175px;
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+	section .para {
+		margin:0px 200px;
+	}
+		/*footer style*/
+	footer ul li {
+		padding-left: 120px;
+	}
+}
+/*	border:1px solid black;*/

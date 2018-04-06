@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shanmeng Liu</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="icon" href="img/signature.jpg" type="image/jpg">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<header>
+		<nav class="container">
+			<div class = "row">
+				<div class="col-md-2">
+					<a href="index.html">
+						<img id = "signature" class="img-responsive" src="img/signature.jpg" alt="signature">
+					</a>
+				</div>
+				<div class="col-md-10">
+					<ul class="nav nav-pills">
+						<li role="presentation"><a href="index.html"><h1>Home</h1></a></li>
+						<li role="presentation"><a href="about.html"><h1>About</h1></a></li>
+						<li role="presentation" class="dropdown" id = 'currentPage'>
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><h1>Projects</h1><span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="projects.html"><h2>All</h2></a></li>
+								<li><a href="userResearch.html"><h2>User Research</h2></a></li>
+								<li><a href="#"><h2>Interaction Design</h2></a></li>
+								<li><a href="#"><h2>Graphic Design</h2></a></li>
+								<li><a href="#"><h2>Contextual Inquiry</h2></a></li>
+							</ul>
+						</li>
+						<li role="presentation"><a href="#"><h1>Resume</h1></a></li>
+						<li role="presentation"><a href="#"><h1>Contact</h1></a></li>
+					</ul>
+				</div>	
+			</div>	
+		</nav>
+	</header>
+
+	<section>
+		<div class = "row">
+			<div class="col-sm-12">
+				<h1 class = "projectsOverview">Projects Overview</h1>
+				<p class = "projectsPara">
+				Here are my projects. Graphic design work includes web banners for UM History Department course promotion, logo design for ID hat shop and etc. One project is a UX design project fostering community communication. One project is a user research project for Ann Arbor District Library's event engine. One project is contextual inquiry for UM3D printing lab.
+				<!-- What are presented here are a bunch of graphic design work and three projects. Those graphic design work include web banners in regular and hovered state for UM History Department course promotion, logo design for ID hat shop and etc. One project is a UX design project fostering community communication, whose process includes Problem Statement, Competitive Analysis, Brainstorming for Solutions, Narrative Storyboard Drawing, Persona and Scenario Building, Story Map Building, Paper Prototyping, Digital Prototyping. One project is a user research project for Ann Arbor District Library's event engine, whose process includes Stakeholder Interview, Contextual Inquiry, Comparative Evaluations, Surveys​, Heuristics Evaluation, Usability Test. One project is contextual inquiry for UM3D printing lab, whose process includes background research, interviews, affinity wall building. -->
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6  project">
+				<div class="thumbnail">
+					<a href="#"><!-- target="_blank" -->
+						<img src="img/graphicDesign.jpg" alt="Graphic Design">
+						<div class="caption">Graphic Design Course Work</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-6 project">
+				<div class="thumbnail">
+					<a href="#"><!-- target="_blank" -->
+						<img src="img/uxDesign.jpg" alt="Interaction Design">
+						<div class="caption">UX Design Project for Community Communication</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 project">
+				<div class="thumbnail">
+					<a href="#"><!-- target="_blank" -->
+						<img src="img/um3dLab.jpg" alt="Contextual Inquiry">
+						<div class="caption">Contextual Inquiry for A 3D Printing Lab</div>
+					</a>
+				</div>
+			</div>
+			<div class="col-sm-6 project">
+				<div class="thumbnail">
+					<a href="userResearch.html"><!-- target="_blank" -->
+						<img src="img/userResearch.jpg" alt="User Research">
+						<div class="caption">User Research for A Downtowm Library</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<a href = "userResearch.html">
+			<p class = "projectsNextOne">Get to know my user research project!&nbsp;&nbsp;&nbsp;>>></p>
+		</a>
+	</section>
+
+	<footer>
+		<div>
+			<ul>
+				<li><p>@All Rights Reserved by Shanmeng Liu</p></li>
+				<li><a class = "linkedIn" href="https://www.linkedin.com/in/shanmeng-liu-0aaa63b5/">LinkedIn</a></li>
+			</ul>
+			<!-- <img id = "signature" src="img/signature.jpg" alt="signature"> -->
+		</div>
+	</footer>
+</body>
+</html>
